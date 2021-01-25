@@ -2,10 +2,13 @@
   "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://camilasales.com/nextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "npm run build && next export -o _static",
+    "prod": "next export"
   },
   "dependencies": {
     "next": "^10.0.0",
